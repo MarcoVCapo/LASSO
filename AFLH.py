@@ -1,7 +1,7 @@
 import numpy as np
 from time import time as now
 import random
-import path2 # Garrigues' Homotopy, Coordinate Descent and LARS
+import path2 # A coordinate descent implementation and homotopy by Garrigues & Ghaoui. It is used to compute LASSO solution for initial batch
 import copy
 import time
 from numpy import linalg as LA
